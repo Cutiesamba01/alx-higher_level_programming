@@ -2,6 +2,7 @@
 
 import sys
 
+
 def main():
     num_args = len(sys.argv) - 1
 
@@ -14,6 +15,7 @@ def main():
 
     for c in range(1, len(sys.argv)):
         print("{}: {}".format(c, sys.argv[c]))
+
 
 if __name__ == "__main__":
     main()
