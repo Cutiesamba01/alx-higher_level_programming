@@ -5,8 +5,8 @@ def no_c(my_string):
 
     new_string = ""
 
-    for o in my_string:
-        if (o != 'c') and (o != 'C'):
-            new_string += o
+    for char in my_string:
+        if char.lower() != 'c':
+            new_string += char
 
-        return (new_string)
+        return new_string
